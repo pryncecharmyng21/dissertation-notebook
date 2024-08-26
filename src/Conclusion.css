@@ -1,0 +1,30 @@
+/* src/Conclusion.css */
+.conclusion {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.conclusion h1 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.conclusion h2 {
+  font-size: 1.5em;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.conclusion p {
+  line-height: 1.6;
+}
+
+.conclusion ul {
+  list-style-type: disc;
+  margin-left: 20px;
+}
+
+.conclusion li {
+  margin-bottom: 10px;
+}
+

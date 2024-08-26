@@ -1,0 +1,21 @@
+/* src/components/Applications.css */
+.applications {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.applications h1 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.applications h2 {
+  font-size: 1.5em;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.applications p {
+  line-height: 1.6;
+}
+

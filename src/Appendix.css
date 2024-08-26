@@ -1,0 +1,24 @@
+/* src/Appendix.css */
+.appendix {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.appendix h1 {
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+.appendix p {
+  font-size: 1.2em;
+}
+
+.appendix a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.appendix a:hover {
+  text-decoration: underline;
+}
+
