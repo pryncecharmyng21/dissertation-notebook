@@ -1,0 +1,33 @@
+.homepage {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.homepage h1 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.homepage p {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+}
+
+.homepage ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.homepage ul li {
+  margin: 10px 0;
+}
+
+.homepage a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.homepage a:hover {
+  text-decoration: underline;
+}
+

@@ -1,21 +1,21 @@
-/* src/components/DataAnalysis.css */
-.data-analysis {
-  padding: 20px;
+/* src/DataAnalysis.css */
+.data-analysis-container {
+  margin: 20px;
   font-family: Arial, sans-serif;
 }
 
-.data-analysis h1 {
+.data-analysis-header {
   font-size: 2em;
-  margin-bottom: 20px;
-}
-
-.data-analysis h2 {
-  font-size: 1.5em;
-  margin-top: 20px;
+  font-weight: bold;
   margin-bottom: 10px;
 }
 
-.data-analysis p {
+.data-analysis-text {
   line-height: 1.6;
+  font-size: 1.1em;
+}
+
+.data-analysis-visualization {
+  margin-top: 20px;
 }
 

@@ -1,16 +1,16 @@
-/* src/Appendix.css */
-.appendix-container {
+/* src/LiteratureReview.css */
+.literature-review-container {
   margin: 20px;
   font-family: Arial, sans-serif;
 }
 
-.appendix-header {
+.literature-review-header {
   font-size: 2em;
   font-weight: bold;
   margin-bottom: 10px;
 }
 
-.appendix-text {
+.literature-review-text {
   line-height: 1.6;
   font-size: 1.1em;
 }

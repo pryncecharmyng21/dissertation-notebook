@@ -1,38 +1,23 @@
-// src/App.js
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
-import Home from './Home';
-import Introduction from './Introduction';
-import Methodology from './Methodology';
-import DataAnalysis from './DataAnalysis';
-import Applications from './Applications';
-import Conclusion from './Conclusion'; // Ensure correct import
-// Import other chapter components here
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import Homepage from './Homepage';
+import MainReport from './MainReport';
+import CaseStudies from './CaseStudies';
+import FutureWork from './FutureWork';
+import ApiGuideline from './ApiGuideline';
+import JupyterNotebook from './JupyterNotebook';
 
 function App() {
   return (
     <Router>
       <div className="App">
-        <nav>
-          <ul>
-            <li><Link to="/">Home</Link></li>
-            <li><Link to="/introduction">Introduction</Link></li>
-            <li><Link to="/methodology">Methodology</Link></li>
-            <li><Link to="/data-analysis">Data Analysis and Visualization</Link></li>
-            <li><Link to="/applications">Applications and Use Cases</Link></li>
-            <li><Link to="/conclusion">Conclusion and Future Work</Link></li>
-            {/* Add links for other chapters here */}
-          </ul>
-        </nav>
-
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/introduction" element={<Introduction />} />
-          <Route path="/methodology" element={<Methodology />} />
-          <Route path="/data-analysis" element={<DataAnalysis />} />
-          <Route path="/applications" element={<Applications />} />
-          <Route path="/conclusion" element={<Conclusion />} />
-          {/* Define routes for other chapters here */}
+          <Route path="/" element={<Homepage />} />
+          <Route path="/main-report" element={<MainReport />} />
+          <Route path="/case-studies" element={<CaseStudies />} />
+          <Route path="/future-work" element={<FutureWork />} />
+          <Route path="/api-guideline" element={<ApiGuideline />} />
+          <Route path="/jupyter-notebook" element={<JupyterNotebook />} />
         </Routes>
       </div>
     </Router>

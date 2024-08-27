@@ -1,0 +1,41 @@
+.main-report {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.main-report h1 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+.main-report nav {
+  margin-bottom: 20px;
+}
+
+.main-report nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.main-report nav ul li {
+  margin: 10px 0;
+}
+
+.main-report nav a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.main-report nav a:hover {
+  text-decoration: underline;
+}
+
+.main-report section {
+  margin-bottom: 40px;
+}
+
+.main-report section h2 {
+  font-size: 2em;
+  margin-bottom: 15px;
+}
+

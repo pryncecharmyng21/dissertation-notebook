@@ -1,21 +1,17 @@
-/* src/components/Methodology.css */
-.methodology {
-  padding: 20px;
+/* src/Methodology.css */
+.methodology-container {
+  margin: 20px;
   font-family: Arial, sans-serif;
 }
 
-.methodology h1 {
+.methodology-header {
   font-size: 2em;
-  margin-bottom: 20px;
-}
-
-.methodology h2 {
-  font-size: 1.5em;
-  margin-top: 20px;
+  font-weight: bold;
   margin-bottom: 10px;
 }
 
-.methodology p {
+.methodology-text {
   line-height: 1.6;
+  font-size: 1.1em;
 }
 

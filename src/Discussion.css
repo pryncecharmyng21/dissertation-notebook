@@ -1,16 +1,16 @@
-/* src/Appendix.css */
-.appendix-container {
+/* src/Discussion.css */
+.discussion-container {
   margin: 20px;
   font-family: Arial, sans-serif;
 }
 
-.appendix-header {
+.discussion-header {
   font-size: 2em;
   font-weight: bold;
   margin-bottom: 10px;
 }
 
-.appendix-text {
+.discussion-text {
   line-height: 1.6;
   font-size: 1.1em;
 }

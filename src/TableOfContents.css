@@ -1,0 +1,30 @@
+/* src/TableOfContents.css */
+.table-of-contents-container {
+  margin: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.table-of-contents-header {
+  font-size: 2em;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.table-of-contents-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.table-of-contents-list li {
+  margin-bottom: 10px;
+}
+
+.table-of-contents-list a {
+  text-decoration: none;
+  color: #007bff;
+}
+
+.table-of-contents-list a:hover {
+  text-decoration: underline;
+}
+
